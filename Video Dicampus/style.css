@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    font-family: sans-serif;
+    text-align: center;
+    max-width: 100%;
+}
+
+main h1{
+    
+    color:orange;
+    padding:20px;
+    padding-bottom: 0;
+  
+}
+
+main video{
+    max-width:100%;
+}
+
+footer{
+    color:white;
+}
+
