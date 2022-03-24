@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    touch-action: manipulation;
+}
+
+body {
+    touch-action: manipulation;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 120vh;
+    background: url(img/patron\ fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+a {
+    text-decoration: none;
+    color: grey
+}
+
+
+main {
+    width: 269px;
+    text-align: center;
+    margin-left: -69px;
+}
+
+.todo {
+    animation: anim1 5s alternate infinite;
+    position: relative;
+    transform-origin: 62% -50%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+    margin-top: 70%;
+    width: 300px;
+}
+
+#cabeza {
+    width: 426px;
+    height: 426px;
+    background-image: url(img/Cab0.png);
+    background-size: cover;
+    margin-left: -16px;
+    padding: 106px 130px;
+    transform-origin: 150px 300px;
+}
+
+
+#ojos {
+    width: 401px;
+    height: 116px;
+    position: absolute;
+    top: 104px;
+    background-image: url(img/Ojo0.png);
+    background-size: cover;
+    background-position: -20px;
+    margin-left: 20px;
+}
+
+#boca {
+    width: 401px;
+    height: 116px;
+    position: absolute;
+    top: 205px;
+    left: 0px;
+    background-image: url(img/Boca0.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: -20px;
+    margin-left: 20px;
+}
+
+#peluco {
+    width: 401px;
+    height: 132px;
+    position: absolute;
+    top: -8px;
+    background-image: url(img/peluco0.png);
+    background-size: cover;
+    background-position: -20px;
+    margin-left: 20px;
+    z-index: 2;
+}
+
+#nariz {
+    width: 401px;
+    height: 116px;
+    position: absolute;
+    top: 168px;
+    left: -5px;
+    background-image: url(img/Nariz0.png);
+    background-size: cover;
+    background-position: -20px;
+    margin-left: 20px;
+    z-index: 1;
+}
+
+#marco {
+    width: 646px;
+    height: 646px;
+    position: absolute;
+    top: -182px;
+    left: -127px;
+    background-image: url(img/marco2.png);
+    background-size: cover;
+    background-position: -20px;
+    margin-left: 20px;
+    z-index: 3;
+}
+
+#fondo {
+    width: 646px;
+    height: 646px;
+    position: absolute;
+    top: -186px;
+    left: -115px;
+    background-image: url(img/fondo.png);
+    background-size: cover;
+    background-position: -20px;
+    margin-left: 20px;
+    z-index: -1;
+}
+
+
+@keyframes anim1 {
+    0% {
+        transform: rotate(-5deg);
+    }
+
+    50% {
+        transform: rotate(5deg);
+    }
+
+    100% {
+        transform: rotate(-5deg);
+    }
+
+}
+
+
+#botonera {
+    margin-left: -150px;
+    margin-top: 50px;
+    width: 900px;
+    max-width: 300%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+button {
+    background: none;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0,.4));
+}
+
+button img {
+    width: 250px;
+    z-index: 4;
+}
+
+button:hover {
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: -5px;
+    filter: drop-shadow(1px 5px 4px rgba(0, 0, 0,.4));
+}
+
+button:active {
+    margin-top: 10px;
+    margin-bottom: -10px;
+    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0,.4));
+}
+
+input[type="range"] {
+    clear: both;
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin: 10px auto 0 auto;
+}
+
+#tono{
+    -webkit-appearance: none;
+    background: url(img/slider.png);
+    height: 68px;
+    width: 565px;
+    margin-left: -37px;
+}
+
+#tono::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background: url(img/dedazo.png);
+    width: 90px;
+    height:90px;
+    background-size: contain;
+    margin-top: 60px;
+    margin-left: -40px;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0,.4));
+}
+
+
+
+
+
+/* Transition */
+button,
+a {
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+::selection {
+    background: none;
+    color: none;
+}
+
+.ana, .david{
+    border-radius: 20px;
+}
+
+.ana{
+    margin-left: 48px;
+    margin-top: 41px;
+    width: 172px;
+    height: 40px;
+}
+
+.david{
+    width: 204px;
+    height: 40px;
+    margin-left: 59px;
+    margin-top: 37px;
+}
+
+footer{
+    background: url(img/Footer.png);
+    width: 1200px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: -30px;
+    margin-top: 50px;
+    max-width: 200%;
+    display: flex;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0,.4));
+
+}
+
+@media (max-width: 670px){
+    main{
+        transform: scale(0.8);
+    }
+
+    #botonera{
+        max-width: 200%;
+        margin-left: -99px;
+        margin-top: 73px;
+    }
+
+    #tono{
+         margin-left: -142px;
+         margin-top: 28px;
+         }
+
+    footer{
+        margin-left: -133px;
+        margin-top: 72px;
+    }
+
+    .todo{
+        margin-top: 42px;
+        margin-left: -47px;
+    }
+}
