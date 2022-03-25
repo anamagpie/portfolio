@@ -1,4 +1,14 @@
 
+body{
+    background-image: url(img/1jpg.jpg);
+    object-fit: cover;
+   
+    max-width:100%;
+}
+
+
+
+
 header{
     background: rgba(9, 10, 10, 1);
     display: flex;
@@ -27,13 +37,13 @@ header nav a{
 
 
 #contacto{
-     color: rgba(234, 165, 165, 1);
+     color: rgb(104, 187, 193);
 
 }
 
 
 main{   
-    background-color: rgba(245, 180, 180, 0.4);
+    background-color: rgba(0, 0, 0, 0.283);
     position: absolute;
     width: 970px;
     height: 2649px;
@@ -161,31 +171,45 @@ main img{
 }
 
 #imagenfondo2{
-    background-color:rgba(9, 10, 10, 1);
-    width: 970px;
+    background-color:rgba(0, 0, 0, 0);
+    width: 780px;
     height: 400px;
+    margin-top: 70px;
 }
 
 #bb{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     position:absolute;
     margin-top:-365px;
     margin-left:60px;
+    border: solid 10px;
+    border-color: black;
+    border-radius:6px;
+   
 }
 
 #ojo{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     position: absolute;
     margin-top: -365px;
-    margin-left: 600px;
+    margin-left: 420px;
+    border: solid 2px;
+    border-color: white;
+    border-radius: 20px;
 }
 
 #imagenfondo3{
     background-color:rgba(9, 10, 10, 1);
     width: 970px;
     height: 400px;
+    margin-top: 70px;
+}
+
+#ppp{
+    margin-top: 270px;
+
 }
 
 #dm{
@@ -229,3 +253,4 @@ footer{
     position:absolute;
     
 }
+
