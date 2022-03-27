@@ -1,13 +1,8 @@
 
-body{
-    background-image: url(img/1jpg.jpg);
-    object-fit: cover;
-   
-    max-width:100%;
+#contenido {
+    width:970px; margin: 0 auto;
+
 }
-
-
-
 
 header{
     background: rgba(9, 10, 10, 1);
@@ -20,7 +15,7 @@ header{
     padding-bottom: 33px;
     width: 970px;
     top: 29px;
-    left: 235px;
+    
 
 }
 
@@ -43,11 +38,11 @@ header nav a{
 
 
 main{   
-    background-color: rgba(0, 0, 0, 0.283);
+    background-color: rgba(255, 255, 255, 0.733);
     position: absolute;
     width: 970px;
     height: 2649px;
-    left: 235px;
+    
     top: 100px;
     bottom: 29px;
 
@@ -253,4 +248,3 @@ footer{
     position:absolute;
     
 }
-
