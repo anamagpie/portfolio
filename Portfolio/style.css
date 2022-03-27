@@ -1,7 +1,11 @@
 
 #contenido {
     width:970px; margin: 0 auto;
+}
 
+body{
+    background:scroll;
+    background-color: rgb(206, 202, 179);
 }
 
 header{
@@ -15,10 +19,7 @@ header{
     padding-bottom: 33px;
     width: 970px;
     top: 29px;
-    
-
 }
-
 
 header nav a{
     color: white;
@@ -26,28 +27,22 @@ header nav a{
     text-align: center;
     
     font-size: 14px;
-    padding: 24px;
-    
+    padding: 24px;  
 }
-
 
 #contacto{
-     color: rgb(104, 187, 193);
-
+     color: rgb(193, 178, 104);
 }
 
-
 main{   
-    background-color: rgba(255, 255, 255, 0.733);
+    background-color: rgba(153, 120, 87, 0.733);
     position: absolute;
     width: 970px;
     height: 2649px;
     
     top: 100px;
     bottom: 29px;
-
 }
-
 
 main h1{    
     font-family: sans-serif;
@@ -59,9 +54,7 @@ main h1{
     top:50px;
     font-size: 30px;
     line-height: 140%;
-
 }
-
 
 main h2{
     position: absolute;
@@ -77,15 +70,12 @@ main h2{
     font-weight: 23px;
 }
 
-
 main img{
     position:absolute;
     object-fit: cover;
     width: 400px;
-    height: 674px;
-    
+    height: 674px;  
 }
-
 
 .cactus{
     background: url(photo-1592167616934-4894775a17b7.jpg);
@@ -93,10 +83,8 @@ main img{
     height: 675px;
     margin-left: 570px;
     justify-content: cover;
-  
 }
 
-/*Caja negra sobre mi perfecta, notocar*/
 .sobremi{
     background-color: rgba(9, 10, 10, 1);
     position: absolute;
@@ -104,18 +92,14 @@ main img{
     height: 479px;
     left: 0px;
     right: 235px;
-    top:195px;
-   
+    top:195px; 
 }
-
 
 .sobremi h2{
     color: white;
     font-family: sans-serif;
-    top: 70px;
-    
+    top: 70px;   
 }
-
 
 #pes{
     color: white;
@@ -123,9 +107,7 @@ main img{
     margin-left: 60px;
     margin-right: 60px;
     margin-top: 150px;
-
 }
-
 
 #pc2{
     position: absolute;
@@ -134,25 +116,20 @@ main img{
     height: 315px;
     left: 570px;
     margin-top: 70px;
-
 }
-
 
 .imagen h2{
     position: absolute;
     color:white;
     font-family: sans-serif;
     top:800px;
-
 }
 
 #imagenfondo{
     background-color: rgba(9, 10, 10, 1);
     width: 970px;
     height: 315px;
-    
     margin-top: 70px;
-
 }
 
 .imagen p{
@@ -162,7 +139,6 @@ main img{
     margin-left: 60px;
     margin-right: 510px;
     margin-top: 200px;
-
 }
 
 #imagenfondo2{
@@ -180,8 +156,7 @@ main img{
     margin-left:60px;
     border: solid 10px;
     border-color: black;
-    border-radius:6px;
-   
+    border-radius:6px;  
 }
 
 #ojo{
@@ -204,7 +179,6 @@ main img{
 
 #ppp{
     margin-top: 270px;
-
 }
 
 #dm{
@@ -226,8 +200,7 @@ main img{
 #imagenfondo4{
     background-color: rgba(9, 10, 10, 1);
     width: 970px;
-    height: 315px;
-    
+    height: 315px;   
     margin-top: 70px;
 }
 
@@ -244,7 +217,5 @@ footer{
     width:970px;
     height: 137px;
     margin-top:2500px;
-    margin-left:228px;
-    position:absolute;
-    
+    position:absolute;   
 }
