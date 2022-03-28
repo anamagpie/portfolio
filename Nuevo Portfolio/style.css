@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+/*------HEADER------*/
+body,html {
+    margin: 0;
+    justify-content: center;
+    max-width:100%;
+    font-family: 'Amatic SC', cursive;
+    font-size:30px;
+    background: #000;
+  }
+
+  ul { 
+    margin: 20px auto 0; 
+    padding: 0; 
+    list-style: none; 
+    display: table;
+    width: 600px;
+    text-align: center;
+  }
+
+  li { 
+    display: table-cell; 
+    position: relative; 
+    padding: 15px 0;
+  }
+
+  a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+  }
+
+  a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+
+  a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+  @media screen and (max-height: 300px) {
+      ul {
+          margin-top: 30px;
+      }
+  }
+/*------FIN HEADER------*/
+
+
+
+/*------MAIN #TODO------*/
+#todo{
+    color: white;
+    display: flex;
+    justify-content:center;
+    max-width: 100%;
+    font-family: 'Amatic SC', cursive;
+}
+/*------FIN MAIN #TODO------*/
+
+
+/*------NOMBRE------*/
+  #nombre {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #nombre a {
+    font-size: 45px;
+    color: black;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+  }
+  
+  #nombre a:hover {
+    font-size: 50px;
+  }
+  
+  /* SCROLL DOWN ARROW */
+  .scroll {
+    vertical-align: 8%;
+  }
+
+  /* SCROLL DOWN BUTTON */
+  .btn {
+    width: 100px;
+    height: 20px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    color:white;
+    background-color: black;
+  }
+  
+  .btn:hover {
+    background: pink;
+  }
+  
+  /* HEADSHOT */
+  .img-round {
+    border-radius: 100%;
+    height: 250px;
+    width: 250px;
+  }
+  
+/*------FIN NOMBRE------*/
+
+/*------SOBRE MI------*/
+/*------FIN SOBRE MI------*/
+
+/*------IMAGEN------*/
+/*------FIN IMAGEN------*/
+
+/*------SONIDO------*/
+/*------FIN SONIDO------*/
+
+/*------CONTACTO------*/
+/*------FIN CONTACTO------*/
