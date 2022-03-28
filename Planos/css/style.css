@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asset&display=swap');
+
+:root {
+    --oscuro: #eadbca;
+    --clarito: #fff3e7;
+    --negros: rgb(106, 95, 85);
+
+}
+
+* {
+    font-family: sans-serif;
+}
+
+
+
+
+h1 {
+    color: var(--negros);
+    font-family: 'Asset', cursive;
+    font-size: 50px;
+    margin: -.2% auto;
+    transition: .3s;;
+    /*transform: rotate(-90deg);*/
+    
+    /* text-shadow: 0px 0px 20px rgb(255, 255, 255), 0px 0px 100px rgb(255, 255, 255), 0px 0px 200px rgb(255, 255, 255); */
+}
+
+h1:hover{
+    font-family: 'Moo Lah Lah', cursive;
+    letter-spacing: 10px;
+    font-size: 60px;
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    background: var(--clarito);
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center !important;
+}
+
+.empesemo{
+    font-size: 50px;
+    top: 200px;
+    left: 800px;
+    color: var(--negros);
+    font-family: 'League Gothic', sans-serif;
+}
+
+#puntuacioon{
+    font-size: 50px;
+    color: var(--negros);
+    font-family: 'League Gothic', sans-serif;
+    background: var(--clarito);
+    padding: 1%;
+    width: 60px;
+    border-radius: 50px;
+    position: absolute;
+    top: 150px;
+    left: 30%;
+}
+
+#puntuacioon:hover{
+    font-family: 'Moo Lah Lah', cursive;
+}
+
+#todisimo {
+    background-color: var(--oscuro);
+    max-width: 40%;
+    margin: 0% auto;
+    padding: 2% 5%;
+    border-radius: 50px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,.3);
+}
+
+img {
+    max-width: 400px;
+    border-radius: 40px;
+    margin-bottom: 2%;
+}
+
+li {
+    list-style: none;
+    margin: 6px auto;
+    background: var(--clarito);
+    padding: 2%;
+    max-width: 50%;
+    border-radius: 50px;
+    font-family: 'Creepster';
+    font-size: 30px;
+    transition: .5s;
+    color: rgb(121, 40, 44);
+    font-family: 'League Gothic', sans-serif;
+}
+
+li:hover {
+    cursor: pointer;
+    letter-spacing: 5px;
+}
+
+#calificacion0 p, #calificacion1 p, #calificacion2 p, #calificacion3 p, #calificacion4 p, #calificacion5 p, #calificacion6 p, #calificacion7 p, #calificacion8 p, #calificacion9 p, #calificacionfinal p{
+    max-width: 200px;
+    /*background: rgb(92, 218, 117);*/
+    background: url(../img/pradera-casa-kTyC-U6018437347960uC-624x385@El\ Comercio.jpg);
+    right: 40%;
+    background-size: cover;
+    padding: 3% 5%;
+    margin: 0 auto;
+    margin-left: 34%;
+    border-radius: 30px;
+    margin-bottom: 2%;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 30px;
+    color: var(--clarito);
+    text-shadow: 0 0 10px rgba(0,0,0,.9);
+}
+
+button{
+    text-align: center;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 50px;
+    color: var(--negros);
+    background: var(--clarito);
+    border: none;
+    max-width:100%;
+    padding: 3% 5%;
+    border-radius: 50px;
+    box-shadow: 1px 1px 0 var(--negros), 2px 2px 0 var(--negros), 3px 3px 0 var(--negros), 4px 4px 0 var(--negros), 5px 5px 0 var(--negros), 6px 6px 0 var(--negros);
+    transition: .3s;
+    margin: 0 auto;
+    margin-top: auto;
+    margin-left: 2.5%;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover{
+    box-shadow: -1px 1px 0 var(--negros), -2px 2px 0 var(--negros), -3px 3px 0 var(--negros), -4px 4px 0 var(--negros), -5px 5px 0 var(--negros), -6px 6px 0 var(--negros);
+    cursor: pointer;
+}
+
+button:active{
+    box-shadow: none;
+}
+
+footer p{
+    font-size: 100px;
+    font-family: 'Moo Lah Lah', cursive;
+    color: var(--oscuro);
+    transition: .5s;
+}
+
+footer p:hover{
+    font-size: 50px;
+    letter-spacing: 200px;
+}
+
+/* *{
+    outline: 1px solid red;
+} */
