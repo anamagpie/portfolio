@@ -19,8 +19,8 @@ header{
     margin-left: 80px;
     margin-bottom:40px;
     background-color: rgb(184, 127, 138);
-    
 }
+
 
 h1{
     color:rgb(255, 204, 203);
@@ -39,13 +39,19 @@ h2{
     margin-top:6px;
 }
 
+
 #btnCambiar{
-    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    margin: 10px auto;
+    text-align: center;
+    padding-top: 5px;
     width: 200px;
     height: 30px;
     font-size: 14px;
     background-color: rgb(204, 158, 167);
     border-radius: 10px;
+    text-decoration-color: lightcoral;
     
 
 }
@@ -73,9 +79,7 @@ li{
     transition: background-color .5s;
 }
 
-li:hover{
-    background-color: rgb(66, 55, 60);
-}
+li:hover{background-color: rgb(141, 99, 118);}
 
 .text{
     margin-left: 130px;
@@ -92,13 +96,15 @@ li:hover{
 .grid{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    max-width:100%;
 }
+
 
 .grid .trabajos{
     width: 250px;
     height: 300px;
     font-size:12px;
-    
 }
 
 .grid img{
@@ -108,26 +114,17 @@ li:hover{
     margin: 0 auto;
     position: relative;
     margin-top: 10px;
-
 }
 
 .grid .text{
-    margin:0 auto;
+    margin: 0 auto;
+    justify-content:center;
 }
 
 footer{
     text-align: center;
     font-size: 10px;
     color:white;
-
 }
 
-.trabajos{
-    text-decoration:none;
-    list-style:none;
-
-}
-
-nav ul{
-    list-style: none;
-}
+a{text-decoration: none;}
