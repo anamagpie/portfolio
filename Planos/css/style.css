@@ -18,19 +18,19 @@
 
 h1 {
     color: var(--negros);
-    font-family: 'Asset', cursive;
-    font-size: 50px;
-    margin: -.2% auto;
-    transition: .3s;;
+    font-family: 'Moo Lah Lah', cursive;
+    letter-spacing: 4px;
+    
+   
     /*transform: rotate(-90deg);*/
     
     /* text-shadow: 0px 0px 20px rgb(255, 255, 255), 0px 0px 100px rgb(255, 255, 255), 0px 0px 200px rgb(255, 255, 255); */
 }
 
 h1:hover{
-    font-family: 'Moo Lah Lah', cursive;
     letter-spacing: 10px;
-    font-size: 60px;
+    font-size: 30px;
+    transition: 1s;
 }
 
 body {
@@ -43,9 +43,8 @@ body {
 }
 
 .empesemo{
-    font-size: 50px;
+    font-size: 80px;
     top: 200px;
-    left: 800px;
     color: var(--negros);
     font-family: 'League Gothic', sans-serif;
 }
@@ -55,11 +54,8 @@ body {
     color: var(--negros);
     font-family: 'League Gothic', sans-serif;
     background: var(--clarito);
-    padding: 1%;
     width: 60px;
     border-radius: 50px;
-    position: absolute;
-    top: 150px;
     left: 30%;
 }
 
@@ -69,7 +65,7 @@ body {
 
 #todisimo {
     background-color: var(--oscuro);
-    max-width: 40%;
+    max-width: 80%;
     margin: 0% auto;
     padding: 2% 5%;
     border-radius: 50px;
@@ -147,10 +143,11 @@ button:active{
 }
 
 footer p{
-    font-size: 100px;
+    font-size: 50px;
     font-family: 'Moo Lah Lah', cursive;
     color: var(--oscuro);
     transition: .5s;
+    margin: 0 auto;
 }
 
 footer p:hover{
