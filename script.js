@@ -8,6 +8,10 @@ function cambiarvista() {
         textoBoton = document.getElementById("btnCambiar").innerText = "Modo lista";
     } else {
         galeria.className = "list";
-        textoBoton = document.getElementById("btnCambiar").innerText = "Modo cuadradicos";
+        textoBoton = document.getElementById("btnCambiar").innerText = "Modo cuadricula";
     }
 }
+
+
+/* añadir grid y list (png) al if y al else en js y al html (btn) para eliminar texto (innerText)
+innerHTML (reuerda meterlo antes en el HTML, a saber donde JA)*/
