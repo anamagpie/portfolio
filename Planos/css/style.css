@@ -18,7 +18,7 @@
 
 h1 {
     color: var(--negros);
-    font-family: 'Moo Lah Lah', cursive;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 4px;
     
    
@@ -44,26 +44,25 @@ body {
 
 .empesemo{
     font-size: 80px;
-    top: 200px;
     color: var(--negros);
-    font-family: 'League Gothic', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
 }
 
 #puntuacioon{
+    position:absolute;
     font-size: 50px;
     color: var(--negros);
-    font-family: 'League Gothic', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background: var(--clarito);
     width: 60px;
     border-radius: 50px;
-    left: 30%;
-}
-
-#puntuacioon:hover{
-    font-family: 'Moo Lah Lah', cursive;
+    
+    
 }
 
 #todisimo {
+    width: 50%;
     background-color: var(--oscuro);
     max-width: 80%;
     margin: 0% auto;
@@ -98,17 +97,11 @@ li:hover {
 }
 
 #calificacion0 p, #calificacion1 p, #calificacion2 p, #calificacion3 p, #calificacion4 p, #calificacion5 p, #calificacion6 p, #calificacion7 p, #calificacion8 p, #calificacion9 p, #calificacionfinal p{
-    max-width: 200px;
+    max-width: 400px;
     /*background: rgb(92, 218, 117);*/
-    background: url(../img/pradera-casa-kTyC-U6018437347960uC-624x385@El\ Comercio.jpg);
-    right: 40%;
     background-size: cover;
-    padding: 3% 5%;
     margin: 0 auto;
-    margin-left: 34%;
-    border-radius: 30px;
-    margin-bottom: 2%;
-    font-family: 'League Gothic', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
     color: var(--clarito);
     text-shadow: 0 0 10px rgba(0,0,0,.9);
@@ -117,17 +110,17 @@ li:hover {
 button{
     text-align: center;
     font-family: 'League Gothic', sans-serif;
-    font-size: 50px;
+    font-size: 30px;
     color: var(--negros);
     background: var(--clarito);
     border: none;
-    max-width:100%;
-    padding: 3% 5%;
+    
+    padding:20px;
     border-radius: 50px;
     box-shadow: 1px 1px 0 var(--negros), 2px 2px 0 var(--negros), 3px 3px 0 var(--negros), 4px 4px 0 var(--negros), 5px 5px 0 var(--negros), 6px 6px 0 var(--negros);
     transition: .3s;
     margin: 0 auto;
-    margin-top: auto;
+    margin-top: 20px;
     margin-left: 2.5%;
     justify-content: center;
     align-items: center;
@@ -143,13 +136,13 @@ button:active{
 }
 
 footer p{
-    font-size: 50px;
-    font-family: 'Moo Lah Lah', cursive;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: var(--oscuro);
     transition: .5s;
-    margin: 0 auto;
 }
 
+/*
 footer p:hover{
     font-size: 50px;
     letter-spacing: 200px;

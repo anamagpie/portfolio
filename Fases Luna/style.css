@@ -1,0 +1,91 @@
+
+
+
+/*defino el estilo de todo lo que está dentro del body*/
+body{
+  margin: 0 auto;
+  font-family: sans-serif;
+  max-width: 960px;
+  background-color: black;
+  border: solid 10px rgb(192, 163, 66);
+}
+
+/*defino el estilo de los titulos*/
+h1{
+  color:whitesmoke;
+  text-align:center;
+  font-family: sans-serif;
+}
+
+h3{
+  color:wheat;
+  text-align: center;
+  font-family: sans-serif;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/*defino el estilo de los parrafos*/
+#pes{
+  color:whitesmoke;
+  text-align:center;
+
+}
+
+#pes2{
+  color:whitesmoke;
+  text-align: center;
+}
+
+/*defijo el estilo de las imagenes*/
+img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+/*alieo las imagenes al centro de la pagina*/
+#imagen{
+  text-align: center;
+}
+
+/*creo el estilo de los botones*/
+button{
+    background: rgb(255, 211, 68);
+    color:black;
+    font-family: sans-serif;
+    padding:10px;
+    width:140px;
+    height: 40px;
+    border-radius:20px;
+    font-family: sans-serif;
+    font-size: 16px;
+    transition: 0.5s;
+    
+}
+
+button:hover{
+  background-color: whitesmoke;
+  color:black;
+  cursor: pointer;
+}
+
+/*alineo los botones al centro de la página*/
+#botones{
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+/*logo*/
+#nat{
+  text-align:center;
+  width:300px;
+  height: 100px;
+}
+
+footer{
+  color: antiquewhite;
+  text-align: center;
+}
+

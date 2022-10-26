@@ -50,43 +50,43 @@ var preguntas = ["<ul id='gene'> <img src='img/general.jpg' alt=''> <li onclick=
           }
 
            function correcto4(){
-            document.getElementById('calificacion4').innerHTML="<p> Correcto! El plano cenital está en el top!</p>";
+            document.getElementById('calificacion4').innerHTML="<p>¡Correcto! A ver si puedes con todos...</p>";
             fallo++;
             document.getElementById('puntuacioon').innerHTML=fallo;
            }
 
            function correcto5(){
-            document.getElementById('calificacion5').innerHTML="<p>Correcto! Niños, no os droguéis.</p>";
+            document.getElementById('calificacion5').innerHTML="<p>¡Cooooooooorrecto!</p>";
             fallo++;
             document.getElementById('puntuacioon').innerHTML=fallo;
            }
 
            function correcto6(){
-            document.getElementById('calificacion6').innerHTML="<p>Correcto! El plano medio es</p>";
+            document.getElementById('calificacion6').innerHTML="<p>¡Correcto! El plano medio es de los mas usados por todos.</p>";
             fallo++;
             document.getElementById('puntuacioon').innerHTML=fallo;
            }
 
            function correcto7(){
-            document.getElementById('calificacion7').innerHTML="<p>Correcto! Este plano no se usa porque seamos objetivos, pa qué se va a usar.</p>";
+            document.getElementById('calificacion7').innerHTML="<p>¡Correcto! Sigamos a ver que pasa...</p>";
             fallo++;
             document.getElementById('puntuacioon').innerHTML=fallo;
            }
 
            function correcto8(){
-            document.getElementById('calificacion8').innerHTML="<p>Correcto! Esto no es un plano, pero es más grande que el generañ.</p>";
+            document.getElementById('calificacion8').innerHTML="<p>¡Correcto! Tambien es conocido como plano general largo :)</p>";
             fallo++;
             document.getElementById('puntuacioon').innerHTML=fallo;
            }
 
            function correcto9(){
-            document.getElementById('calificacion9').innerHTML="<p>Correcto! El plano picado está mosca</p>";
+            document.getElementById('calificacion9').innerHTML="<p>¡Cooorrecto! ¡No hay que confundir el picado con el cenital! </p>";
             fallo++;
             document.getElementById('puntuacioon').innerHTML=fallo;
            }
 
            function correctofinal(){
-            document.getElementById('calificacionfinal').innerHTML="<p>Correcto! El plano contrapicado está así como lo ves.</p>";
+            document.getElementById('calificacionfinal').innerHTML="<p>¡Correcto! Pues como el picado pero al reves, ¿no?</p>";
             fallo++;
             document.getElementById('puntuacioon').innerHTML=fallo;
            }
