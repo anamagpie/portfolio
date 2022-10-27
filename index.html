@@ -1,132 +1,102 @@
 <!DOCTYPE html>
-<html lang="es">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Ana Magpie | Diseño gráfico y multimedia</title>
-  <meta property="og:title" content="Trabajos Ana Magpie" />
-  <meta property="og:description" content="Trabajos Ana UA | Audiovisuales 2022">
-  <meta name="description" content="Trabajos Ana Magpie Audiovisuales">
-  <meta name="author" content="Ana Magpie">
-  <meta name="language" content="spanish">
-  <meta name="distribution" content="global">
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Magpie</title>
+    <link href="/style.css" rel="stylesheet"> 
+  </head>
   
-  <div class="absolute">
-    
-    <header>
-      
-      <button onclick="cambiarvista()" ;="" id="btnCambiar" class="hover">Modo cuadricula</button>
-      <img src="img/Captura de Pantalla 2022-10-25 a las 18.39.57.png" alt="">
-    </header>
-    
-    <main>
-      <h1>Ana Urraca Alba</h1>
-      <h2>Diseño gráfico y multimedia</h2>
-      <ul class="list" id="galeria">
-        
-      <li class="trabajos">
-        <a href="Animacion AE/estesi.mp4">
-          <img src="IMG/POP.png" alt="">
-          <div class="text">
-            <h3>Animación en After Effects</h3>
-            <p>Breve ejemplo de animación en AE.</p>
-        </div>
-        </a>
-      </li>
+  <script src="/script.js"></script>
+  
+  
+  <header>
 
-       <li class="trabajos">
-        <a href="Planos/index.html" >
-          <img src="img/planos.png" alt="">
-          <div class="text">
-            <h3>¡Acierta el plano!</h3>
-            <p>Juego didáctico con HTML CSS y JS</p>
-          </div>
-        </a>
-      </li>
+    <div class="container">
+      <nav class="site-nav">
+        <ul>
+          <li class="active"><a class="scroll" href="#home">Home</a><li>
+            <li><a class="scroll" href="#portfolio">Portfolio</a><li>
+              <li><a class="scroll" href="#contact">Contacto</a><li>
+              </ul>
+            </nav>
+            
+            </div>
+          </header>
+          
+          <section class="home-hero" id="home">
+         
+            <h1><line>ANA URRACA</line></h1>
+            <h2>Diseño gráfico y multimedia</h2>
+          </section>
+          
+          <section class="home-portfolio responsive" id="portfolio">
+            <h1><linebl>PORTFOLIO</linebl></h1>
+            
+            <!-- portfolio item 01 -->
+            <ul class="grid-container">
+              <li> <img src="img/cv_DM_M_1.png">
+                <h3>Ilustracion y Diseño</h3>
+                <p>Galería con algunos de mis trabajos más destacados. <a href="">Ver Galería</a></p>
+              </li>
+              <li>
+                <img src="img/InteractivoAnimales.png">
+                <h3>Interactivo FIGMA GENIALLY</h3>
+                <p>Interactivo didactico orientado a niños: diseño en Figma y gamificación en Genially. <a href="https://view.genial.ly/628f9f71ab22cf001112fe5e/interactive-content-fauna-asturiana">Ver Interactivo</a></p>
+              </li>
+              <li>
+                <img src="img/cuest.png">
+                <h3>Cuestionario HTML CSS</h3>
+                <p> Ejemplo de cuestionario web.<a href="https://codepen.io/crisnc/pen/MvqjGO">Ver Cuestionario</a></p>
+              </li>
+            </ul>
+            
+            <ul>
+              <li>
+                <img src="img/moon.png">
+                <h3>Interactivo HTML JS</h3>
+                <p>Ejemplo interactivo que simula las fases de la luna a traves de una galería. <a href="/Cuestionario HTML/index.html">Ver Interactivo</a></p>
+              </li>
+              <li>
+                <img src="img/caras.png">
+                <h3>Minijuego HTML CSS JS</h3>
+                <p>Minijuego interactivo en el que puedes crear un personaje. <a href="/Creador de Personajes/index.html">Probar</a></p>
+              </li>
+              <li>
+                <img src="img/plan.png">
+                <h3>Juego HTML CSS JS</h3>
+                <p>Juego didáctico para aprender los diferentes tipos de planos. <a href="/Planos/index.html">Probar</a></p>
+              </li>
 
-      <li class="trabajos">
-        <a href="https://www.figma.com/proto/YGV4YUz6PywNw94LgNveBf/Principios-de-la-animaci%C3%B3n?node-id=1%3A3&starting-point-node-id=1%3A3">
-          <img src="img/figm.png" alt="">
-          <div class="text">
-            <h3>Interactivo 12 leyes de la animación</h3>
-            <p>Interactivo didáctico: Diseño en Figma </p>
-        </div>
-        </a>
-      </li>
+              </ul>
+              <ul>
+              <li>
+                <img src="img/videodicampus2.png">
+                <h3>Video Promocional</h3>
+                <p>Ejemplo de video promocional para Dicampus en Jitter. <a href="Video Dicampus/001.mp4">Ver video</a></p>
+              </li>
+              <li>
+                <img src="img/POP.png">
+                <h3>Animación After Effects</h3>
+                <p>Breve video aplicando varias leyes de la animación.<a href="Animacion AE/estesi.mp4">Ver video</a></p>
+              </li>
+              <li>
+                <img src="img/figm.png">
+                <h3>Interactivo FIGMA</h3>
+                <p>Interactivo didáctico donde se explican con ejemplos las 12 leyes de la animación.<a href="https://www.figma.com/proto/YGV4YUz6PywNw94LgNveBf/Principios-de-la-animaci%C3%B3n?node-id=1%3A3&starting-point-node-id=1%3A3">Ver Interactivo</a></p>
+              </li>
+            </ul>
+            
+            <ul>
 
-      <li class="trabajos">
-        <a href="https://view.genial.ly/628f9f71ab22cf001112fe5e/interactive-content-fauna-asturiana">
-          <img src="img/InteractivoAnimales.png" alt="">
-          <div class="text">
-            <h3>Interactivo Fauna Asturiana</h3>
-            <p>Interactivo didáctico: Diseño en Figma y gamificación en Genially. </p>
-        </div>
-        </a>
-      </li>
+                </ul>
+            </section>
+            
+            
+            <section class="home-contact" id="contact">
+              <h1><linebl>CONTACTO</linebl></h1>
+            </section>
 
-      <li class="trabajos">
-        <a href="Creador de Personajes/index.html">
-          <img src="img/caras.png" alt="">
-          <div class="text">
-            <h3>Crea tu personaje</h3>
-            <p>Juego interactivo para crear un avatar: HTML CSS y JS.</p>
-          </div>
-        </a>
-      </li>
-      
-      
-      <li class="trabajos">
-        <a href="Cuestionario HTML/index.html">
-          <img src="img/cuest.png" alt="">
-          <div class="text">
-            <h3>Cuestionario</h3>
-            <p>Modelo de cuestionario HTML CSS</p>
-          </div>
-        </a>
-      </li>
-      
-      <li class="trabajos">
-        <a href="/Fases Luna/index.html">
-          <img src="/img/moon.png" alt="">
-          <div class="text">
-            <h3>Galeria Fases de la luna</h3>
-            <p>Ejemplo de galería de imágenes: HTML y JS. <sub>
-            </sub></p>
-          </div>
-        </a>
-      </li>
-      
-      <li class="trabajos">
-        <a href="Video Dicampus/index.html">
-          <img src="img/videodicampus2.png" alt="">
-          <div class="text">
-            <h3>Video Dicampus</h3>
-            <p>Ejemplo de video "promocional" de Dicampus en Jitter</p>
-          </div>
-        </a>
-      </li>
-
-      <li class="trabajos">
-           <a href="">
-           <img src="img/Captura de Pantalla 2022-10-26 a las 19.36.10.png" alt="">
-           <div class="text">
-             <h3>CV Personal</h3>
-             <p>Resumen de mi experiencia y formación relacionada con el diseño.</p> 
-           </div>
-         </a>
-       </li>
-    </ul>
-  </div>
-</main>
-<footer>
-  <p>COPYRIGHT © 2022 | ANA MAGPIE</p>
-</footer>
-</div>
-  <script src="script.js"></script>
-</body>
-</html>
+            
+            
