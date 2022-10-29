@@ -1,15 +1,6 @@
-$(window).scroll(function () {
-  parallax();
-});
+/*
 
-function parallax() {
-  var wscroll = $(window).scrollTop();
 
-  $(".parallax--bg").css(
-    "background-position",
-    "center " + wScroll * 0.75 + "px"
-  );
-}
 
 // Smooth Scrolling
 $(document).ready(function () {
@@ -22,7 +13,7 @@ $(document).ready(function () {
       {
         scrollTop: $(this.hash).offset().top
       },
-      1000
+      100
     );
   });
 
@@ -39,3 +30,5 @@ $(document).ready(function () {
     });
   });
 });
+
+*/
