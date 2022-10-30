@@ -1,24 +1,3 @@
-@media screen and (max-width:480px){
-  body {
-    font-size:80%;
-  }
-  
-  /* porcentaje base, solo en el body */
-  p {
-    font-size:0.9em;
-  }
-  h1 {
-    font-size:2em;
-  }
-  h2 {
-    font-size:1.4em;
-  }
-  footer {
-    font-size:1.2em;
-  }
-
-  
-}
 
 
 a:link, a:visited, a:active {
@@ -31,6 +10,9 @@ a:link, a:visited, a:active {
     scroll-behavior: smooth;
     
   }
+
+
+
   
   /* ANIMACION DEGRADADA TEXTOS PORTFOLIO y CONTACTO */
   .animate-charcter
@@ -62,9 +44,11 @@ a:link, a:visited, a:active {
       }
     }
     
-    
+/* TODITO */
     
     body {
+
+      max-width:100%;
       margin: 0 auto;
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
@@ -82,20 +66,23 @@ a:link, a:visited, a:active {
       z-index: 2;
     }
     
-/*HOME*/
+/* HOME */
 
+    /*fondo*/
     .home-hero{
-      position:relative;
       background: rgb(2,0,36);
       background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(98,12,92,1) 49%, rgba(69,124,135,1) 100%);
     }
     
+    /*titulo*/
     h1 {
       font-size: 40px;
+      text-align: center;
     }
     
     h2 {
       font-size: 20px;
+      text-align: center;
     }
     
     line {
@@ -128,7 +115,7 @@ a:link, a:visited, a:active {
     
     nav li {
       display: inline-block;
-      margin-left: 70px;
+      margin-left: 8%;    /*responsive barra*/
       padding-top: 25px;
       position: relative;
     }
@@ -137,7 +124,7 @@ a:link, a:visited, a:active {
       color: white;
       text-decoration: none;
       text-transform: uppercase;
-      font-size: 17px;
+      font-size: 17px;                /*same*/
     }
     
     nav a:hover {
@@ -167,7 +154,7 @@ a:link, a:visited, a:active {
     .home-hero {
       background-size: cover;
       background-position: center;
-      padding: 235px;
+      padding: 235px; /*same or not*/
       color: #FFF;
       text-align: center;
     }
@@ -175,12 +162,13 @@ a:link, a:visited, a:active {
     /* PROJECTS */
     .home-portfolio {
       padding-bottom: 550px;
+      margin:0 auto;
     }
     
     .home-portfolio h1 {
       margin: 0 auto;
       text-align: center;
-      padding: 70px;
+      padding: 70px;        /*same or not*/
       text-transform: uppercase;
       color: linear-gradient(90deg, rgba(98,12,92,1) 0%, rgba(69,124,135,1) 100%);
     }
@@ -196,7 +184,7 @@ a:link, a:visited, a:active {
 
 .containercard{
   width: 80%;
-  display: flex;
+  display: flex;                            /*saaaame*/
   justify-content: space-between;
   flex-wrap: wrap;
   margin:0 auto;
@@ -337,8 +325,11 @@ a:link, a:visited, a:active {
     .home-contact {
       margin: 0 auto;
       text-align: center;
-      padding: 0px;
-      color: linear-gradient(90deg, rgba(98,12,92,1) 0%, rgba(69,124,135,1) 100%);
+      padding-top:70px;
+
+      
+      max-height: 0px;
+      
     }
     
     .home-contact h1 {
@@ -355,76 +346,22 @@ a:link, a:visited, a:active {
     }
 
     .gmail{
-    display: flex;
-    justify-content: space-between;
+    width: 50px;
    }
-
-    .gmail img{
-    width:50px;
-   }
-
-  .gmail a{
-    color:#1f1f1f;
-    font-weight: bold;
-    margin-top:16px;
-  }
-
-  .ig a{
-    color:#1f1f1f;
-    font-weight: bold;
-    margin-top: 16px;;
-  }
-
-
-
     .ig{
+    width: 50px;
+  }
+
+    .iconos{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    margin-top:20px;
-  
-  }
-
-    .ig img{
-    width: 52px;
-  }
-
-    .local{
-    display: flex;
-    justify-content: space-between;
-    margin-top:20px;
-  
-  }
-    .local img{
-    width: 52px;
-  }
-
-    .conti p{
-      color: #1f1f1f;
-      position:relative;
-      
-    }
     
-    .conti p:hover{
-      color:plum;
-      transition:0.5s;
-  
-    }
     
-    .conti img{
-      width:52px;
-      height: 52px;
-      margin-left: 20px; 
-      position:absolute;
-    }
+  }
 
-    .conti li{
-      background:white;
-      border: solid  1px #1f1f1f;
-      border-radius: 50px;
-      
-    }
 
-    
+
  
 
   
