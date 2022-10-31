@@ -271,7 +271,11 @@ a:link, a:visited, a:active {
 
 .containercard .card .face.face2 .contentcard a {
   font-size: 12pt;
-  color:#2f7e7e;
+  color:#ffffff;
+  background-color: #333;
+  padding:10px;
+  border-radius:20px;
+  margin-top:30px;
 }
 
 
@@ -376,9 +380,7 @@ a:link, a:visited, a:active {
 #peque{
   height: 450px;
 }
-
-
-
+#rotar{transform: scaleX(-1);}
 
   .show{
       transform: translate(0);
@@ -440,13 +442,9 @@ a:link, a:visited, a:active {
   }
 
     .iconos{
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-
-    
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
     
   }
 
@@ -454,4 +452,3 @@ a:link, a:visited, a:active {
 
  
 
-  
