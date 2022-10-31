@@ -339,10 +339,7 @@ a:link, a:visited, a:active {
       margin: auto;
       padding: 60px 0;
   }
-  
-  
-
-  
+    
   .contenedor-galeria{
       display: flex;
       justify-content: space-evenly;
@@ -378,7 +375,7 @@ a:link, a:visited, a:active {
   }
   
 #peque{
-  height: 450px;
+  height: 480px;
 }
 #rotar{transform: scaleX(-1);}
 
@@ -414,7 +411,7 @@ a:link, a:visited, a:active {
     .home-contact {
       margin: 0 auto;
       text-align: center;
-      padding-top:70px;
+      height:0px;
     }
     
     .home-contact h1 {
@@ -423,11 +420,6 @@ a:link, a:visited, a:active {
       padding-top: 70px;
       text-transform: uppercase;
       color: linear-gradient(90deg, rgba(98,12,92,1) 0%, rgba(69,124,135,1) 100%);
-    }
-
-
-    .home-contact a:hover{
-      color:#2f7e7e;
     }
 
     .gmail{
@@ -445,6 +437,7 @@ a:link, a:visited, a:active {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+    
     
   }
 

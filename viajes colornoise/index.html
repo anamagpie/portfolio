@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Destinos Aleatorios 2.0</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header>
+  <h1>Viajes Colornoise</h1>
+</header>
+
+<main>
+
+  <h2 class="presentacion">¡Deja tu destino al azar! (Dependiendo del dinero que tengas)</h2>
+  
+<div class="divgeneral">
+
+ <div class="divpobres">
+   <h3>¿Poco presupuesto?</h3>
+<h2 id="ciudadPob">ECONOMICO</h2>
+   <p id="imgPob"></p>
+<button id="destPob" onclick="randomPob();">Destinos</button>
+</div>
+
+
+<div class="divmedia">
+  <h3>¿Bueno pero sin pasarse?</h3>
+<h2 id="ciudadMed">STANDARD</h2>
+  <p id="imgMed"></p>
+<button id="destMed" onclick="randomMed();">Destinos</button>
+</div>
+  
+<div class="divricos">
+  <h3>¿Te van los viajes VIP?</h3>
+<h2 id="ciudadRic">PARAÍSO</h2>
+  <p id="imgRic"></p>
+<button id="destRic" onclick="randomRic();">Destinos</button>
+</div>
+  
+  </div>
+  <div class="mapa">
+  
+    </div>
+  
+  </main>
+
+
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
