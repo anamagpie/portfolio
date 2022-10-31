@@ -333,10 +333,6 @@ a:link, a:visited, a:active {
       margin: 0 auto;
       text-align: center;
       padding-top:70px;
-
-      
-      max-height: 0px;
-      
     }
     
     .home-contact h1 {
@@ -354,15 +350,22 @@ a:link, a:visited, a:active {
 
     .gmail{
     width: 50px;
+    padding: 40px;
+    padding-top:10px;
    }
     .ig{
     width: 50px;
+    padding: 40px;
+    padding-top:10px;
   }
 
     .iconos{
+
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    
+
     
     
   }
