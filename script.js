@@ -1,6 +1,6 @@
 
 
-
+/*
 
 // Smooth Scrolling
 $(document).ready(function () {
