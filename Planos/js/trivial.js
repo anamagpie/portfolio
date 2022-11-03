@@ -1,14 +1,14 @@
-var preguntas = ["<ul id='gene'> <img src='img/general.jpg' alt=''> <li onclick='correcto0()'>Plano General</li>  <li onclick='mal()'>Plano Medio</li>  <li onclick='mal()'>Primer Plano</li>  <li onclick='mal()'>Plano Catastrófico</li> </ul> <div id='calificacion0'></div>",
-                "<ul id='prime'> <img src='img/primer plano.jpg' alt=''> <li onclick='mal()'>Plano Detalle</li> <li onclick='mal()'>Plano Criminal</li><li onclick='correcto1()'>Primer Plano</li> <li onclick='mal()'>Plano Indesructible</li> </ul> <div id='calificacion1'></div>",
-                "<ul id='deta'> <img src='img/detalle.jpg' alt=''> <li onclick='mal()'>Plano Acercadito</li> <li onclick='correcto2()'>Plano Detalle</li> <li onclick='mal()'>Primer Plano</li> <li onclick='mal()'>Plano 4</li> </ul> <div id='calificacion2'></div>",
+var preguntas = ["<ul id='gene'> <img src='img/general.jpg' alt=''> <li onclick='correcto0()'>Plano General</li>  <li onclick='mal()'>Plano Medio</li>  <li onclick='mal()'>Primer Plano</li>  <li onclick='mal()'>Plano Máximo</li> </ul> <div id='calificacion0'></div>",
+                "<ul id='prime'> <img src='img/primer plano.jpg' alt=''> <li onclick='mal()'>Plano Detalle</li> <li onclick='mal()'>Plano Lejano</li><li onclick='correcto1()'>Primer Plano</li> <li onclick='mal()'>Plano Mínimo/li> </ul> <div id='calificacion1'></div>",
+                "<ul id='deta'> <img src='img/detalle.jpg' alt=''> <li onclick='mal()'>Plano 3/4</li> <li onclick='correcto2()'>Plano Detalle</li> <li onclick='mal()'>Primer Plano</li> <li onclick='mal()'>Plano Ancho</li> </ul> <div id='calificacion2'></div>",
                 "<ul id='amer'> <img src='img/americano.jpg' alt=''> <li onclick='mal()'>Plano Detalle</li> <li onclick='correcto3()'>Plano Americano</li> <li onclick='mal()'>Primer Plano</li> <li onclick='mal()'>Plano General</li> </ul> <div id='calificacion3'></div>",
-                "<ul id='cenital'> <img src='img/cenital.jpg' alt=''> <li onclick='mal()'>Plano Nadiro</li> <li onclick='mal()'>Plano Medio</li> <li onclick='correcto4()'>Plano Cenital</li> <li onclick='mal()'>Plano Aberrante</li> </ul> <div id='calificacion4'></div>",
-                "<ul id='enter'> <img src='img/enteroporsia.jpg' alt=''> <li onclick='mal()'>Plano Mierda</li> <li onclick='mal()'>Primer Cuarenta y 2</li> <li onclick='mal()'>Plano Planísimo</li> <li onclick='correcto5()'>Plano Entero</li> </ul> <div id='calificacion5'></div>",
-                "<ul id='medi'> <img src='img/medio.jpg' alt=''> <li onclick='correcto6()'>Plano Medio</li> <li onclick='mal()'>Plano Central</li> <li onclick='mal()'>Plano Suficiente</li> <li onclick='mal()'>Plano Peleafísica</li>  </ul> <div id='calificacion6'></div>",
-                "<ul id='nadi'> <img src='img/nadir.jpg' alt=''> <li onclick='mal()'>Plano Agresivo</li> <li onclick='mal()'>Plano Macron</li> <li onclick='correcto7()'>Plano Nadir</li> <li onclick='mal()'>Plano Universal</li> </ul> <div id='calificacion7'></div>",
-                "<ul id='pano'> <img src='img/panoramico.jpg' alt=''> <li onclick='mal()'>Plano Fotográfico</li> <li onclick='mal()'>Plano Cercanías</li> <li onclick='mal()'>Plano Sé tu propio jefe</li> <li onclick='correcto8()'>Panorámico</li> </ul> <div id='calificacion8'></div>",
-                "<ul id='pica'> <img src='img/picado.jpg' alt=''> <li onclick='mal()'>Plano Metafórico</li> <li onclick='mal()'>Plano Sideral</li> <li onclick='correcto9()'>Plano Picado</li> <li onclick='mal()'>Plano Iridiscente</li> </ul> <div id='calificacion9'></div>",
-                "<ul id='contra'> <img src='img/contrapicado.jpg' alt=''> <li onclick='correctofinal()'>Plano Contrapicado</li> <li onclick='mal()'>Plano Respuesta Correcta</li> <li onclick='mal()'>Primer No te fíes de la anterior respuesta</li> <li onclick='mal()'>Plano Unete a nosotros</li> </ul> <div id='calificacionfinal'></div>"
+                "<ul id='cenital'> <img src='img/cenital.jpg' alt=''> <li onclick='mal()'>Plano Nadiro</li> <li onclick='mal()'>Plano Medio</li> <li onclick='correcto4()'>Plano Cenital</li> <li onclick='mal()'>Plano Máximo</li> </ul> <div id='calificacion4'></div>",
+                "<ul id='enter'> <img src='img/enteroporsia.jpg' alt=''> <li onclick='mal()'>Plano Mayor</li> <li onclick='mal()'>Plano Centrado</li> <li onclick='mal()'>Plano Menor</li> <li onclick='correcto5()'>Plano Entero</li> </ul> <div id='calificacion5'></div>",
+                "<ul id='medi'> <img src='img/medio.jpg' alt=''> <li onclick='correcto6()'>Plano Medio</li> <li onclick='mal()'>Plano Central</li> <li onclick='mal()'>Contrapicado</li> <li onclick='mal()'>Plano Menor</li>  </ul> <div id='calificacion6'></div>",
+                "<ul id='nadi'> <img src='img/nadir.jpg' alt=''> <li onclick='mal()'>Plano Alto</li> <li onclick='mal()'>Plano Marco</li> <li onclick='correcto7()'>Plano Nadir</li> <li onclick='mal()'>Plano Vista</li> </ul> <div id='calificacion7'></div>",
+                "<ul id='pano'> <img src='img/panoramico.jpg' alt=''> <li onclick='mal()'>Plano Fotográfico</li> <li onclick='mal()'>Nadir</li> <li onclick='mal()'>Contrapicado</li> <li onclick='correcto8()'>Panorámico</li> </ul> <div id='calificacion8'></div>",
+                "<ul id='pica'> <img src='img/picado.jpg' alt=''> <li onclick='mal()'>Plano General</li> <li onclick='mal()'>Plano Medio</li> <li onclick='correcto9()'>Plano Picado</li> <li onclick='mal()'>Plano Medio</li> </ul> <div id='calificacion9'></div>",
+                "<ul id='contra'> <img src='img/contrapicado.jpg' alt=''> <li onclick='correctofinal()'>Plano Contrapicado</li> <li onclick='mal()'>Plano Medio</li> <li onclick='mal()'>Plano Americano</li> <li onclick='mal()'>Plano Máximo</li> </ul> <div id='calificacionfinal'></div>"
             ]
 
             function numrandom(min, max) {
@@ -97,4 +97,4 @@ var preguntas = ["<ul id='gene'> <img src='img/general.jpg' alt=''> <li onclick=
             document.getElementById('puntuacioon').innerHTML=fallo;
           }
 
-          //AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA CONTADO
+     
