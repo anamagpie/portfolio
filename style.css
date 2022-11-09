@@ -404,12 +404,12 @@ a:link, a:visited, a:active {
 
  
 
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 320px) {
     
     
     .home-hero{
       max-width: 100%;
-      padding: 100px; /*same or not*/
+      padding: 20%; /*same or not*/
     }
     
     
@@ -428,6 +428,19 @@ a:link, a:visited, a:active {
       font-size:40px;
     }
 
+    nav li {
+      max-width: 100%;
+      display: inline-block; 
+      margin-left:10%;
+      justify-content: right; /*responsive barra*/
+      padding-top: 10px;
+    }
+    nav a {
+      color: white;
+      text-transform:uppercase;
+      font-size: 12px;     
+      padding:none;           /*same*/
+    }
 
   .containercard .card .face.face1{transform:none; max-width: 100%;}
   .containercard .card .face.face2{transform:none;max-width: 100%;}
@@ -442,73 +455,56 @@ a:link, a:visited, a:active {
     margin:0 auto;
     padding:0px;
     padding-bottom: 100px;  
-} 
+}
   }
 
-  @media only screen and (max-width: 320px) {
-    .home-hero h1{
-      margin-top:40px;
-      max-width: 100%;
-      font-size: 20px; 
-      
-    }
+  @media only screen and (max-width: 920px) {
     
-    .home-hero h2{
-      padding-top:10px;
-      font-size: 14px;
-      margin-bottom: 0px;
-
-
-    }
-    nav li {
-      max-width: 100%;
+    .container {
+      position:fixed;
       display: inline-block;
-      margin-left: 8%;    /*responsive barra*/
-      padding-top: 18px;
+      transition-duration: 1s;
+      background-color: rgb(20, 20, 20);
+      max-width: 100%;
+      z-index: 2;
     }
-    
-    nav a {
-      color: white;
-      text-transform: uppercase;
-      font-size: 12px;                /*same*/
-    }
-    
-    
+
     .home-hero{
       max-width: 100%;
-      padding: 100px; /*same or not*/
+      padding: 10%;
+      height: 200px;
+       /*same or not*/
     }
     
     
     .home-hero h1{
-      margin-top:40px;
-      max-width: 100%;
-      font-size: 20px; 
       
+      margin-top: 80px;
+      max-width: 100%;
+      font-size:18px;
     }
     
     .home-hero h2{
       padding-top:10px;
       font-size: 12px;
-      margin-bottom: 0px;
-
-
     }
 
     .animate-charcter{
       font-size:40px;
+      
     }
 
     nav li {
-      display: inline-block;
-      margin-left: 0%;    /*responsive barra*/
-      padding-top: 25px;
-      position: relative;
+      max-width: 100%;
+      display:inline-block; 
+      margin-left:4%; /*responsive barra*/
+      padding-top: 10px;
     }
-    
     nav a {
-
-      font-size: 17px;                /*same*/
+      color: white;
+      text-transform:uppercase;
+      font-size: 12px;     
+      padding:none;           /*same*/
     }
 
   .containercard .card .face.face1{transform:none; max-width: 100%;}
@@ -524,5 +520,5 @@ a:link, a:visited, a:active {
     margin:0 auto;
     padding:0px;
     padding-bottom: 100px;  
-} 
+}
   }
