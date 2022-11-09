@@ -1,79 +1,4 @@
-@media only screen
-and (min-width: 320px)
-and (max-width: 750px)
-{
 
-  body {
-    max-width:100%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-  
-    .home-hero{
-      margin:0 auto;
-      max-width: 100%;
-      height: 50px;
-    }
-  
-    /*titulo*/
-
-    .home-hero h1{
-     max-width: 100%;
-     margin-left:-80px;
-     position: absolute;
-     text-align: center;
-     font-size: 30px;
-    }
-
-    .home-hero h2{
-      position:absolute;
-      margin-top:80px;
-      text-align:center;
-      margin-left: -230px;
-      padding:10px;
-    }
-    
-    /*--- CONTACT0 ---*/
-
-
-    .home-contact {
-      margin: 0 auto;
-      text-align: center;
-    }
-    
-    .home-contact h1 {
-      margin: 0 auto;
-      text-align: center;
-      padding-top: 70px;
-      text-transform: uppercase;
-      color: linear-gradient(90deg, rgba(98,12,92,1) 0%, rgba(69,124,135,1) 100%);
-    }
-
-    .iconos .gmail{
-    width: 50px;
-    padding: 20px;
-    padding-top:10px;
-   }
-    .iconos .ig{
-    width: 50px;
-    padding: 20px;
-    padding-top:10px;
-  }
-
-  .iconos{
-    display: flex;
-    
-    
-    
-    
-    
-  }
-
-
- 
-
-
-  
-}
 
 a:link, a:visited, a:active {
   text-decoration:none;
@@ -105,7 +30,7 @@ a:link, a:visited, a:active {
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      animation: textclip 3s linear infinite;
+      animation: textclip 2s linear infinite;
       display: flex;
       justify-content: center;
       font-size: 50px;
@@ -120,8 +45,8 @@ a:link, a:visited, a:active {
 /* TODO */
     
     body {
-
       max-width:100%;
+      max-height: 100%;
       margin: 0 auto;
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
@@ -143,19 +68,28 @@ a:link, a:visited, a:active {
 
     /*fondo*/
     .home-hero{
+      background-size: cover;
+      background-position: center;
+      padding: 235px; /*same or not*/
+      color: #FFF;
+      margin:0 auto;
+      text-align:center;
+      align-items: center;
       background: rgb(2,0,36);
       background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(98,12,92,1) 49%, rgba(69,124,135,1) 100%);
     }
     
     /*titulo*/
-    h1 {
+    .home-hero h1 {
       font-size: 40px;
       text-align: center;
+      
     }
     
-    h2 {
+    .home-hero h2 {
       font-size: 20px;
       text-align: center;
+     
     }
     
     line {
@@ -225,13 +159,7 @@ a:link, a:visited, a:active {
     
 /*--- HOME ---*/
 
-    .home-hero {
-      background-size: cover;
-      background-position: center;
-      padding: 235px; /*same or not*/
-      color: #FFF;
-      text-align: center;
-    }
+
     
 
 /*--- TITULO PORTFOLIO ---*/
@@ -327,9 +255,6 @@ a:link, a:visited, a:active {
   position:absolute;
   color:white;
 }
-
-
-
 
 .containercard .card .face.face2{
   position: relative;
@@ -429,48 +354,97 @@ a:link, a:visited, a:active {
       top: 15px;
       right: 15px;
       width: 40px;
-      cursor: pointer;
       color:#fff;
       font-size: 25px;
   }
     
-    /*--- CONTACT0 ---*/
+    /*--- CONTACT0 ---*/ 
 
-
+    #contact{padding-bottom: 0px; margin-bottom: -250px;
+    }
+    
     .home-contact {
+      max-width: 100%;
+      height: 0px;
       margin: 0 auto;
       text-align: center;
-      height:0px;
+      align-items: center;
     }
     
     .home-contact h1 {
       margin: 0 auto;
       text-align: center;
-      padding-top: 70px;
+      padding:0 auto;
+      height: 0px;
       text-transform: uppercase;
       color: linear-gradient(90deg, rgba(98,12,92,1) 0%, rgba(69,124,135,1) 100%);
     }
-
-    .gmail{
-    width: 50px;
-    padding: 40px;
-    padding-top:10px;
-   }
-    .ig{
-    width: 50px;
-    padding: 40px;
-    padding-top:10px;
-  }
-
+    
     .iconos{
+      margin-top:20px;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+      align-items: center;
+    }
+ 
+   .iconos .gmail{
+    width: 50px;
+    padding: 20px;
     
+   }
+
+
+    .iconos .ig{
+    width: 50px;
+    padding: 20px;
     
   }
+
 
 
 
  
 
+  @media only screen and (max-width: 800px) {
+    .home-hero{
+      max-width: 100%;
+      padding: 100px; /*same or not*/
+    }
+    
+    
+    .home-hero h1{
+      margin-top:40px;
+      max-width: 100%;
+      font-size: 28px; 
+      
+    }
+    
+    .home-hero h2{
+      padding-top:10px;
+      font-size: 16px;
+      margin-bottom: 0px;
+
+
+    }
+
+    .animate-charcter{
+      font-size:40px;
+    }
+
+
+  .containercard .card .face.face1{transform:none; max-width: 100%;}
+  .containercard .card .face.face2{transform:none;max-width: 100%;}
+  .containercard .card .face.face2 .contentcard a {font-size: 9pt; color:#ffffff; background-color: #333; padding:8px; border-radius:20px; margin-top:60px;}
+  .containercard .card .face.face2 .contentcard p{font-size: 10.5pt;}
+
+
+  .contenedor {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    margin:0 auto;
+    padding:0px;
+    padding-bottom: 100px;  
+} 
+  }

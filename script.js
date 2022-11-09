@@ -1,6 +1,6 @@
 
 
-/*
+
 
 // Smooth Scrolling
 $(document).ready(function () {
@@ -13,7 +13,7 @@ $(document).ready(function () {
       {
         scrollTop: $(this.hash).offset().top
       },
-      100
+      10
     );
   });
 
@@ -31,4 +31,3 @@ $(document).ready(function () {
   });
 });
 
-*/
