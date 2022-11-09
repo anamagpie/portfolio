@@ -9,6 +9,7 @@ a:link, a:visited, a:active {
   html {
     scroll-behavior: smooth;
     
+    
   }
 
   
@@ -405,7 +406,7 @@ a:link, a:visited, a:active {
  
 
   @media only screen and (max-width: 320px) {
-    
+    html{overflow: hidden;}
     
     .home-hero{
       max-width: 100%;
@@ -458,7 +459,9 @@ a:link, a:visited, a:active {
 }
   }
 
-  @media only screen and (max-width: 920px) {
+  @media only screen and (max-width: 800px) {
+    
+
     
     .container {
       position:fixed;
@@ -481,12 +484,12 @@ a:link, a:visited, a:active {
       
       margin-top: 80px;
       max-width: 100%;
-      font-size:18px;
+      font-size:25px;
     }
     
     .home-hero h2{
       padding-top:10px;
-      font-size: 12px;
+      font-size: 20px;
     }
 
     .animate-charcter{
@@ -497,14 +500,13 @@ a:link, a:visited, a:active {
     nav li {
       max-width: 100%;
       display:inline-block; 
-      margin-left:4%; /*responsive barra*/
-      padding-top: 10px;
+      margin-left:8%; /*responsive barra*/
+
     }
     nav a {
       color: white;
-      text-transform:uppercase;
-      font-size: 12px;     
-      padding:none;           /*same*/
+      text-transform:uppercase;   
+                 /*same*/
     }
 
   .containercard .card .face.face1{transform:none; max-width: 100%;}
