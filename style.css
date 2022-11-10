@@ -432,14 +432,13 @@ a:link, a:visited, a:active {
     nav li {
       max-width: 100%;
       display: inline-block; 
-      margin-left:10%;
-      justify-content: right; /*responsive barra*/
+      margin-left:3%; /*responsive barra*/
       padding-top: 10px;
     }
     nav a {
       color: white;
       text-transform:uppercase;
-      font-size: 12px;     
+      font-size: 10px;     
       padding:none;           /*same*/
     }
 
@@ -500,7 +499,7 @@ a:link, a:visited, a:active {
     nav li {
       max-width: 100%;
       display:inline-block; 
-      margin-left:8%; /*responsive barra*/
+      margin: left 8%; /*responsive barra*/
 
     }
     nav a {
